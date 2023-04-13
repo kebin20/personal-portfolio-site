@@ -1,0 +1,128 @@
+.header {
+    z-index: 10;
+    width: 100%;
+    background-color: $--clr-light-blue;
+    padding: 1.25rem 1rem;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+
+    & h4 {
+        font-weight: 700;
+        font-size: $fs-600;
+    }
+  }
+  
+  .mobile-links {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1em;
+    align-items: center;
+    position: absolute;
+    top: 2.9em;
+    left: 0;
+    right: 0;
+    bottom: 0em;
+    padding: 2em;
+    font-family: $--body-font;
+    font-size: $fs-500;
+    z-index: 1;
+  }
+  
+  .links {
+    display: none;
+  }
+  
+  .link {
+    margin-left: 1.5em;
+    color: $--clr-dark-blue;
+  }
+
+  .link:hover {
+      color: $--clr-blue;
+  }
+
+  .hamburger-menu {
+    display: block;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    transition: all 0.25s;
+    position: relative;
+    border: none;
+    background-color: transparent;
+    margin-left: auto;
+  }
+  
+  .hamburger-menu:focus {
+    outline: transparent;
+  }
+  
+  .hamburger-top,
+  .hamburger-middle,
+  .hamburger-bottom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25px;
+    height: 3px;
+    border-radius: 1.5px;
+    background: $--clr-dark-blue; 
+    transform: rotate(0);
+    transition: all 0.5s;
+  }
+  
+  .hamburger-middle {
+    transform: translateY(7px);
+  }
+  
+  .hamburger-bottom {
+    transform: translateY(14px);
+  }
+  
+  .open {
+    transform: rotate(90deg);
+    transform: translateY(0px);
+  }
+  
+  .open .hamburger-top {
+    transform: rotate(45deg) translateY(6px) translate(6px);
+  }
+  
+  .open .hamburger-middle {
+    display: none;
+  }
+  
+  .open .hamburger-bottom {
+    transform: rotate(-45deg) translateY(6px) translate(-6px);
+  }
+  
+  /* Tablet portrait and larger */
+  @media only screen and (min-width: 600px) {
+    .mobile-links {
+      display: none;
+    }
+  
+    .links {
+      display: flex;
+      align-items: center;
+        margin-left: auto;
+    }
+  
+    .hamburger-menu {
+      display: none;
+    }
+  }
+  /* Tablet landscape and larger */
+  @media only screen and (min-width: 900px) {
+  }
+  
+  /* Desktop and larger */
+  @media only screen and (min-width: 1200px) {
+  }
+  /* Big desktop (4k) */
+  @media only screen and (min-width: 1800px) {
+  }
+  

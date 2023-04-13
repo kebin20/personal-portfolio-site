@@ -1,0 +1,35 @@
+//variables
+
+// Theme colors
+$--clr-dark-blue: #1d3557;
+$--clr-blue: #457b9d;
+$--clr-light-blue: #a8dadc;
+$--clr-white: #f1faee;
+$--clr-red: #e63946;
+$--clr-light-red: #ea5460;
+$--main-button-default: var(--clr-red);
+$--main-button-hover: var(--clr-light-red);
+$--title-font: "Nunito", sans-serif;
+$--body-font: "PT Sans", sans-serif;
+
+// Font Sizes
+$fs-900: 4.8rem;  //72px
+$fs-800: 3.73rem;  //56px
+$fs-700: 3.2rem;  //48px
+$fs-600: 2.13rem; //32px
+$fs-500: 1.6rem; //24px
+$fs-400: 1.2rem; // 18px
+$fs-base: 1rem; // 15px
+$fs-200: 0.867rem; // 13px
+
+
+// Spacing
+$base-padding: 1rem;
+$base-margin: 1rem;
+
+// Borders
+$base-border-thickness: 1px;
+$base-border-radius: 20px;
+
+// Box-shadow
+$base-box-shadow: 1px 3px 5px rgba(0,0,0,0.1);

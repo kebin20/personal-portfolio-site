@@ -1,6 +1,5 @@
 import { useState } from "react";
-import styles from "@/styles/Navbar.module.css";
-import Image from "next/image";
+// import Image from "next/image";
 
 export default function NavBar() {
   const [toggle, setToggle] = useState(false);
@@ -10,105 +9,61 @@ export default function NavBar() {
   }
 
   return (
-    <header className={styles.header}>
-      <nav className={styles.nav}>
+    <header className="header">
+      <nav className="nav">
         <a onClick={() => setToggle(false)} to="/">
-          <Image className={styles.logo} alt="personal logo" />
+          {/* <Image className="logo" alt="personal logo" src={} /> */}
         </a>
         <h4>Kevin Tanzyl</h4>
-        <ul className={styles.links}>
+        <ul className="links">
           <li>
-            <a
-              onClick={() => setToggle(false)}
-              href="#"
-              className={styles.link}
-            >
+            <a onClick={() => setToggle(false)} href="#" className="link">
               Home
             </a>
           </li>
           <li>
-            <a
-              onClick={() => setToggle(false)}
-              href="#"
-              className={styles.link}
-            >
+            <a onClick={() => setToggle(false)} href="#" className="link">
               About
             </a>
           </li>
           <li>
-            <a
-              onClick={() => setToggle(false)}
-              href="#"
-              className={styles.link}
-            >
+            <a onClick={() => setToggle(false)} href="#" className="link">
               Projects
             </a>
           </li>
           <li>
-            <a
-              onClick={() => setToggle(false)}
-              href="#"
-              className={styles.link}
-            >
+            <a onClick={() => setToggle(false)} href="#" className="link">
               Contact
             </a>
           </li>
         </ul>
 
-        <button onClick={toggleHamburgerMenu} className={styles.hamburger}>
-          <span
-            className={`${styles.hamburgerTop} ${toggle && styles.open} ${
-              toggle && styles.openHamburgerTop
-            }`}
-          ></span>
-          <span
-            className={`${styles.hamburgerMiddle} ${toggle && styles.open} ${
-              toggle && styles.openHamburgerMiddle
-            }`}
-          ></span>
-          <span
-            className={`${styles.hamburgerBottom} ${toggle && styles.open} ${
-              toggle && styles.openHamburgerBottom
-            }`}
-          ></span>
+        <button onClick={toggleHamburgerMenu} className="hamburger-menu">
+          <span className={`hamburger-top ${toggle ? "open" : ""}`}></span>
+          <span className={`hamburger-middle ${toggle ? "open" : ""}`}></span>
+          <span className={`hamburger-bottom ${toggle ? "open" : ""}`}></span>
         </button>
       </nav>
 
       {toggle && (
-        <ul className={styles.mobileLinks}>
+        <ul className="mobile-links">
           <li>
-            <a
-              onClick={() => setToggle(false)}
-              href="#"
-              className={styles.mobileLink}
-            >
+            <a onClick={() => setToggle(false)} href="#" className="link">
               Home
             </a>
           </li>
           <li>
-            <a
-              onClick={() => setToggle(false)}
-              href="#"
-              className={styles.mobileLink}
-            >
+            <a onClick={() => setToggle(false)} href="#" className="link">
               About
             </a>
           </li>
           <li>
-            <a
-              onClick={() => setToggle(false)}
-              href="#"
-              className={styles.mobileLink}
-            >
+            <a onClick={() => setToggle(false)} href="#" className="link">
               Projects
             </a>
           </li>
           <li>
-            <a
-              onClick={() => setToggle(false)}
-              href="#"
-              className={styles.mobileLink}
-            >
+            <a onClick={() => setToggle(false)} href="#" className="link">
               Contact
             </a>
           </li>

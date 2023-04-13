@@ -12,19 +12,6 @@ Mobile: 654x800
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 
-:root {
-  --clr-dark-blue: #1d3557;
-  --clr-blue: #457b9d;
-  --clr-light-blue: #a8dadc;
-  --clr-white: #f1faee;
-  --clr-red: #e63946;
-  --clr-light-red: #ea5460;
-  --main-button-default: var(--clr-red);
-  --main-button-hover: var(--clr-light-red);
-  --title-font: "Nunito", sans-serif;
-  --body-font: "PT Sans", sans-serif;
-}
-
 /*
   Josh's Custom CSS Reset
   https://www.joshwcomeau.com/css/custom-css-reset/
@@ -42,7 +29,8 @@ body {
   height: 100%;
 }
 body {
-  font-family: var(--body-font);
+  background-color: $--clr-dark-blue;
+  font-family: $--body-font;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -75,7 +63,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--title-font);
+  font-family:$--title-font;
   overflow-wrap: break-word;
 }
 
