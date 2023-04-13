@@ -8,23 +8,21 @@ Mobile: 654x800
 
 /* Variables */
 
+/* Font Families*/
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
 :root {
-  --darkCyan: #0e8784;
-  --darkGreyBlue: #333d4b;
-  --darkBlue: #2c343e;
-  --paleOrange: #fdd6ba;
-  --lightCream: #fefcf7;
-  --Grey: #83888f;
-  --main-button-default: var(--darkCyan);
-  --main-button-hover: #66d2cf;
-  --main-button-disabled: #e2dedb;
-  --big-select-option-default: #f4f1eb;
-  --big-select-option-hover: var(--paleOrange);
-  --big-select-option-active: var(--darkCyan);
-  --accordion-menu-default: var(--darkCyan);
-  --accordion-menu-hover: var(--main-button-hover);
-  --title-font: "Fraunces", serif;
-  --body-font: "Barlow", sans-serif;
+  --clr-dark-blue: #1d3557;
+  --clr-blue: #457b9d;
+  --clr-light-blue: #a8dadc;
+  --clr-white: #f1faee;
+  --clr-red: #e63946;
+  --clr-light-red: #ea5460;
+  --main-button-default: var(--clr-red);
+  --main-button-hover: var(--clr-light-red);
+  --title-font: "Nunito", sans-serif;
+  --body-font: "PT Sans", sans-serif;
 }
 
 /*
@@ -44,6 +42,7 @@ body {
   height: 100%;
 }
 body {
+  font-family: var(--body-font);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -62,12 +61,21 @@ select {
   font: inherit;
 }
 
+/* button {
+  background-color: var(--clr-red);
+}
+
+button:hover {
+  background-color: var(--clr-light-red);
+} */
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
+  font-family: var(--title-font);
   overflow-wrap: break-word;
 }
 
@@ -77,6 +85,7 @@ p {
 ul,
 li,
 a {
+  font: inherit;
   list-style: none;
   text-decoration: none;
   padding: 0;

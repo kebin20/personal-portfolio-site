@@ -1,7 +1,7 @@
 .header {
   z-index: 10;
   width: 100%;
-  background: transparent;
+  background-color: var(--clr-blue);
   padding: 2em;
 }
 

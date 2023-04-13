@@ -15,7 +15,7 @@ export default function NavBar() {
         <a onClick={() => setToggle(false)} to="/">
           <Image className={styles.logo} alt="personal logo" />
         </a>
-
+        <h4>Kevin Tanzyl</h4>
         <ul className={styles.links}>
           <li>
             <a
