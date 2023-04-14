@@ -14,7 +14,7 @@ export default function NavBar() {
         <a onClick={() => setToggle(false)} to="/">
           {/* <Image className="logo" alt="personal logo" src={} /> */}
         </a>
-        <h4>Kevin Tanzyl</h4>
+        <h4 className="logo-title">Kevin Tanzyl</h4>
         <ul className="links">
           <li>
             <a onClick={() => setToggle(false)} href="#" className="link">
@@ -39,31 +39,31 @@ export default function NavBar() {
         </ul>
 
         <button onClick={toggleHamburgerMenu} className="hamburger-menu">
-          <span className={`hamburger-top ${toggle ? "open" : ""}`}></span>
-          <span className={`hamburger-middle ${toggle ? "open" : ""}`}></span>
-          <span className={`hamburger-bottom ${toggle ? "open" : ""}`}></span>
+          <span className={`${toggle && "open"} hamburger-top`}></span>
+          <span className={`${toggle && "open"} hamburger-middle`}></span>
+          <span className={`${toggle && "open"} hamburger-bottom`}></span>
         </button>
       </nav>
 
       {toggle && (
         <ul className="mobile-links">
           <li>
-            <a onClick={() => setToggle(false)} href="#" className="link">
+            <a onClick={() => setToggle(false)} href="#" className="mobile-link">
               Home
             </a>
           </li>
           <li>
-            <a onClick={() => setToggle(false)} href="#" className="link">
+            <a onClick={() => setToggle(false)} href="#" className="mobile-link">
               About
             </a>
           </li>
           <li>
-            <a onClick={() => setToggle(false)} href="#" className="link">
+            <a onClick={() => setToggle(false)} href="#" className="mobile-link">
               Projects
             </a>
           </li>
           <li>
-            <a onClick={() => setToggle(false)} href="#" className="link">
+            <a onClick={() => setToggle(false)} href="#" className="mobile-link">
               Contact
             </a>
           </li>
