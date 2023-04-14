@@ -1,15 +1,15 @@
 //variables
 
 // Theme colors
-$--clr-dark-blue: #1d3557;
-$--clr-blue: #457b9d;
-$--clr-light-blue: #a8dadc;
+$--clr-dark-blue: #023047;
+$--clr-blue: #219ebc;
+$--clr-light-blue: #8ecae6;
 $--clr-white: #f1faee;
 $--clr-orange: #fb8500;
-$--clr-red: #e63946;
-$--clr-light-red: #ea5460;
-$--main-button-default: var(--clr-red);
-$--main-button-hover: var(--clr-light-red);
+$--clr-yellow: #ffb703;
+$--clr-light-yellow: #ffbd17;
+$--main-button-default: $--clr-yellow;
+$--main-button-hover: $--clr-light-yellow;
 $--title-font: "Nunito", sans-serif;
 $--body-font: "PT Sans", sans-serif;
 

@@ -24,13 +24,18 @@ Mobile: 654x800
 * {
   margin: 0;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
+  font-family: $--body-font;
   height: 100%;
 }
 body {
   background-color: $--clr-dark-blue;
-  font-family: $--body-font;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -49,21 +54,13 @@ select {
   font: inherit;
 }
 
-/* button {
-  background-color: var(--clr-red);
-}
-
-button:hover {
-  background-color: var(--clr-light-red);
-} */
-
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family:$--title-font;
+  font-family: $--title-font;
   overflow-wrap: break-word;
 }
 

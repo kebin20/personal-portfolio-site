@@ -20,7 +20,7 @@
       top: 2em;
       height: 5px;
       width: 2rem;
-      background: $--clr-orange;
+      background: $--clr-yellow;
       left: 2em;
       transform: translateX(-50%);
       border-radius: 5px;
@@ -113,7 +113,7 @@
 }
 
 /* Tablet portrait and larger */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 37.5em) {
   .mobile-links {
     display: none;
   }
@@ -135,7 +135,7 @@
         top: 3em;
         height: 3px;
         width: 1.5rem;
-        background: $--clr-orange;
+        background: $--clr-yellow;
         left: 50%;
         transform: translateX(-50%);
         border-radius: 5px;
@@ -148,12 +148,12 @@
   }
 }
 /* Tablet landscape and larger */
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 56.25em) {
 }
 
 /* Desktop and larger */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 75em) {
 }
 /* Big desktop (4k) */
-@media only screen and (min-width: 1800px) {
+@media only screen and (min-width: 112.5em) {
 }

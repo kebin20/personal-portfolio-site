@@ -1,8 +1,12 @@
 // variables & functions
-@import 'variables';
+@import "variables";
 
 // base & layout
-@import 'base';
+@import "base";
 
-// components (button,card,navbar) 
-@import 'components/navbar'
+// components (button,card,navbar)
+@import "components/navbar";
+
+@import "components/hero";
+
+@import "components/button";

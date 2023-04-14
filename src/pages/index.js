@@ -1,7 +1,7 @@
 import Head from "next/head";
-import Image from "next/image";
 
 import NavBar from "@/components/Navbar";
+import HomeHero from "@/components/HomeHero";
 export default function Home() {
   return (
     <>
@@ -12,7 +12,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar />
-      <main></main>
+      <main>
+        <HomeHero />
+      </main>
     </>
   );
 }

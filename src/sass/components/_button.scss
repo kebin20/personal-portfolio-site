@@ -1,0 +1,18 @@
+.btn {
+  font-family: inherit;
+  letter-spacing: 1px;
+  font-weight: 700;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  font-size: $fs-400;
+  border-radius: 5px;
+  border: 2px solid rgba($--main-button-default, 1);
+  background: rgba($--main-button-default, 1);
+  color: $--clr-dark-blue;
+
+  &:hover {
+    background: rgba($--main-button-hover, 1);
+  }
+}

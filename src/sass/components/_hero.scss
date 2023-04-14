@@ -1,0 +1,54 @@
+.home-hero {
+  height: unset;
+  min-height: unset;
+  max-height: unset;
+  color: $--clr-white;
+
+  &__content {
+    margin: 0 auto;
+    padding: 5em 2em;
+    text-align: center;
+
+    &__heading {
+      font-size: $fs-600;
+      margin-bottom: 1rem;
+    }
+
+    &__info {
+      font-size: $fs-400;
+    }
+
+    &__btn-container {
+      display: flex;
+      flex-direction: column;
+      gap: 2em;
+      margin-top: 2em;
+    }
+  }
+}
+
+/* Tablet portrait and larger */
+@media only screen and (min-width: 37.5em) {
+  .home-hero {
+    display: flex;
+    height: 100vh;
+    min-height: 80rem;
+    max-height: 120rem;
+  }
+
+  .home-hero__content {
+    max-width: 120rem;
+    margin: auto;
+    width: 90%;
+  }
+}
+/* Tablet landscape and larger */
+@media only screen and (min-width: 56.25em) {
+}
+
+/* Desktop and larger */
+@media only screen and (min-width: 75em) {
+}
+/* Big desktop (4k) */
+@media only screen and (min-width: 112.5em) {
+}
