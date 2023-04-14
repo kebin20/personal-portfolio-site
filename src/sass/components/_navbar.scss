@@ -11,18 +11,19 @@
   align-items: center;
 
   & .logo-title {
+    position: relative;
     font-weight: 700;
     font-size: $fs-600;
-    margin-left: 1em;
+    margin-left: 0.5em;
 
     &::after {
       content: "";
       position: absolute;
-      top: 2.2em;
+      top: 1.3em;
       height: 5px;
       width: 2rem;
       background: $--clr-yellow;
-      left: 5em;
+      left: 1.8em;
       transform: translateX(-50%);
       border-radius: 5px;
     }
