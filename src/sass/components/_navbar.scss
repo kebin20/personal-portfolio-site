@@ -13,15 +13,16 @@
   & .logo-title {
     font-weight: 700;
     font-size: $fs-600;
+    margin-left: 1em;
 
     &::after {
       content: "";
       position: absolute;
-      top: 2em;
+      top: 2.2em;
       height: 5px;
       width: 2rem;
       background: $--clr-yellow;
-      left: 2em;
+      left: 5em;
       transform: translateX(-50%);
       border-radius: 5px;
     }

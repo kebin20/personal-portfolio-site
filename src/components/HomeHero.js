@@ -8,7 +8,7 @@ function HomeHero() {
         </h1>
         <p class="home-hero__content__info">
           A Web Developer Building Awesome Webapps And Websites That Powers The
-          Internet
+          Internet    
         </p>
         <div className="home-hero__content__btn-container">
           <button class="btn">Projects</button>
