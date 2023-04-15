@@ -2,7 +2,7 @@ import Button from "./UI/Button";
 
 function AboutUs() {
   return (
-    <section id="about" class="about">
+    <section id="about" className="about">
       <div className="main-container">
         <h4 className="main-container__sm-title">About Me 🧑</h4>
         <h2 className="main-container__main-title">
@@ -38,21 +38,21 @@ function AboutUs() {
               </p>
               <Button className="btn">Projects</Button>
             </div>
-            <div class="skill-info">
+            <div className="skill-info">
               <h4 className="main-container__sm-title">My Skills 💪</h4>
-              <ul class="skill-info__skills">
-                <li class="skill-info__skills__skill">html</li>
-                <li class="skill-info__skills__skill">css</li>
-                <li class="skill-info__skills__skill">javascript</li>
-                <li class="skill-info__skills__skill">react</li>
-                <li class="skill-info__skills__skill">typescript</li>
-                <li class="skill-info__skills__skill">git</li>
-                <li class="skill-info__skills__skill">vscode</li>
-                <li class="skill-info__skills__skill">tailwind</li>
-                <li class="skill-info__skills__skill">styled components</li>
-                <li class="skill-info__skills__skill">sass</li>
-                <li class="skill-info__skills__skill">firebase</li>
-                <li class="skill-info__skills__skill">figma</li>
+              <ul className="skill-info__skills">
+                <li className="skill-info__skills__skill">html</li>
+                <li className="skill-info__skills__skill">css</li>
+                <li className="skill-info__skills__skill">javascript</li>
+                <li className="skill-info__skills__skill">react</li>
+                <li className="skill-info__skills__skill">typescript</li>
+                <li className="skill-info__skills__skill">git</li>
+                <li className="skill-info__skills__skill">vscode</li>
+                <li className="skill-info__skills__skill">tailwind</li>
+                <li className="skill-info__skills__skill">styled components</li>
+                <li className="skill-info__skills__skill">sass</li>
+                <li className="skill-info__skills__skill">firebase</li>
+                <li className="skill-info__skills__skill">figma</li>
               </ul>
             </div>
           </div>

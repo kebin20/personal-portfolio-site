@@ -1,0 +1,73 @@
+.main-footer {
+  &__upper {
+    background: $--clr-white;
+    padding: 7rem 0;
+  }
+
+  &__links {
+    display: block;
+  }
+
+  &__link a {
+    margin-bottom: 0.5rem;
+    padding: 3rem 1.5rem;
+    display: block;
+    color: $--clr-dark-blue;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+  }
+
+  &__mid-line {
+    background: grey;
+    height: 1px;
+    margin-top: 6rem;
+  }
+
+  &__socials {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    max-width: 25rem;
+    margin: auto;
+    margin-top: 6rem;
+  }
+
+  &__social-link-icon {
+    width: 2.5rem;
+  }
+}
+
+// Credit footer
+.main-footer__bottom {
+  padding: 5rem 2rem;
+  background: #222;
+}
+
+.main-footer__bottom-txt {
+  color: #eee;
+  font-size: 1.3rem;
+  word-spacing: 2px;
+  text-align: center;
+}
+
+.main-footer__bottom-txt a {
+  text-decoration: underline;
+  color: #fff;
+  font-weight: 700;
+}
+
+@media (min-width: 37.5em) {
+  .main-footer__upper {
+    padding: 10rem 0;
+  }
+
+  .main-footer__links {
+    display: flex;
+    max-width: 50rem;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+  }
+}

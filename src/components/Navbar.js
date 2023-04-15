@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Image from "next/image";
-import logo from "../assets/kevin-avatar.svg";
+import logo from "../assets/kevin-avatar-light.svg";
 
 export default function NavBar() {
   const [toggle, setToggle] = useState(false);

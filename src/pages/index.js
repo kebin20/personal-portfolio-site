@@ -6,6 +6,7 @@ import AboutUs from "@/components/AboutMe";
 import SkillsShowcase from "@/components/SkillsShowcase";
 import Projects from "@/components/Projects";
 import ContactMe from "@/components/ContactMe";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
         <SkillsShowcase />
         <Projects />
         <ContactMe />
+        <Footer />
       </main>
     </>
   );

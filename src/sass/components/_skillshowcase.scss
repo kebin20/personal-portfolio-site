@@ -12,14 +12,12 @@
 
   &__list-item {
     padding: 1.5rem;
-    border-radius: 5px;
+    border-radius: 50%;
     background: $--clr-white;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
     & i {
       color: $--clr-dark-blue;
-      // color: rgba($--clr-white, 1);
-      // color: #999;
       font-size: 2.5rem;
     }
   }
