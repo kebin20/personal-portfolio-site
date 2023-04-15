@@ -5,6 +5,7 @@ import HomeHero from "@/components/HomeHero";
 import AboutUs from "@/components/AboutMe";
 import SkillsShowcase from "@/components/SkillsShowcase";
 import Projects from "@/components/Projects";
+import ContactMe from "@/components/ContactMe";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
         <AboutUs />
         <SkillsShowcase />
         <Projects />
+        <ContactMe />
       </main>
     </>
   );
