@@ -1,0 +1,131 @@
+.projects {
+  color: $--clr-white;
+}
+
+.projects__list-item {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 4rem;
+  margin-bottom: 8rem;
+}
+
+.projects__list-item--inv {
+  justify-content: flex-end;
+}
+
+@media (min-width: 75em) {
+  .projects__list-item {
+    grid-template-columns: 45%;
+  }
+}
+
+@media (min-width: 56.25em) {
+  .projects__list-item {
+    grid-template-columns: 60%;
+  }
+}
+
+.projects__list-item:last-child {
+  margin-bottom: 0;
+}
+
+.projects__list-item-count {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 30rem;
+  display: none;
+}
+
+.projects__list-item-count-num {
+  font-size: 2rem;
+  font-weight: 700;
+  width: 5rem;
+  height: 5rem;
+  color: #fff;
+  background: #000;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+
+.projects__list-item-count-line {
+  flex-grow: 1;
+  width: 2px;
+  background: #000;
+  border-radius: 50px;
+}
+
+.projects__list-item-count-end-dot {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50px;
+  background: #000;
+}
+
+.projects__list-item--inv .projects__list-item-img-cont {
+  margin: 0 0 0 auto;
+}
+
+.projects__list-item-img-cont {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.projects__list-item-img {
+  width: 100%;
+  display: block;
+}
+
+.projects__list-item-heading-tertiary {
+  margin: 5rem 0 2.5rem 0;
+}
+
+@media (min-width: 37.5em) {
+  .projects__list-item-heading-tertiary {
+    margin: 5rem 0 3rem 0;
+  }
+}
+
+.projects__title-text-divider {
+  height: 5px;
+  width: 3rem;
+  background: rgba(var(--themeColor), 1);
+  margin-bottom: 3rem;
+  border-radius: 100px;
+}
+
+.projects__list-item-text-primary {
+  margin-bottom: 3.7rem;
+}
+
+@media (min-width: 37.5em) {
+  .projects__list-item-text-primary {
+    margin-bottom: 4rem;
+  }
+}
+
+.projects__list-item-text-primary span {
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.projects__list-item-text-primary span:last-child {
+  margin-bottom: 0;
+}
+.projects__btn-theme {
+  margin: 0 0 2rem 0;
+}
+
+.projects__btn-theme,
+.projects__btn-inv {
+  width: 70%;
+}
+
+@media (min-width: 37.5em) {
+  .projects__btn-theme {
+    margin-right: 2rem;
+  }
+}

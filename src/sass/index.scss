@@ -4,6 +4,9 @@
 // base & layout
 @import "base";
 
+//utility
+@import "utils";
+
 // components (button,card,navbar)
 @import "components/navbar";
 
@@ -14,3 +17,5 @@
 @import "components/aboutme";
 
 @import "components/skillshowcase";
+
+@import "components/projects";

@@ -4,6 +4,7 @@ import NavBar from "@/components/Navbar";
 import HomeHero from "@/components/HomeHero";
 import AboutUs from "@/components/AboutMe";
 import SkillsShowcase from "@/components/SkillsShowcase";
+import Projects from "@/components/Projects";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <HomeHero />
         <AboutUs />
         <SkillsShowcase />
+        <Projects />
       </main>
     </>
   );

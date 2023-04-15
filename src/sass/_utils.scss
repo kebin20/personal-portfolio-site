@@ -1,0 +1,57 @@
+.main-container {
+  max-width: 120rem;
+  width: 90%;
+  margin: 0 auto;
+
+  &__sm-title {
+    position: relative;
+    font-size: $fs-base;
+    line-height: 4.5;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 3.3em;
+      height: 2px;
+      width: 2rem;
+      background: $--clr-yellow;
+      left: 1em;
+      transform: translateX(-50%);
+      border-radius: 5px;
+    }
+  }
+
+  &__main-title {
+    font-size: $fs-600;
+    margin-top: 1em;
+  }
+}
+
+.main-section {
+  padding: 8rem 0;
+
+  &__content {
+    margin-top: 9rem;
+  }
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  margin-top: 2em;
+}
+
+@media (min-width: 37.5em) {
+  .main-container {
+    padding: 5em 2em;
+  }
+
+  .main-section {
+    padding: 12rem 0;
+
+    &__content {
+      margin-top: 10rem;
+    }
+  }
+}
