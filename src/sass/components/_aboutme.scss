@@ -1,80 +1,44 @@
 .about {
   color: $--clr-white;
 
-  .main-container {
-    margin: 0 auto;
-    padding: 5em 2em;
+  .info {
+    grid-template-columns: 1fr;
+    grid-gap: 6rem;
 
-    &__sm-title {
-      position: relative;
-      font-size: $fs-base;
-      line-height: 4.5;
+    &__main-info {
+      margin-bottom: 6rem;
 
-      &::after {
-        content: "";
-        position: absolute;
-        top: 3.3em;
-        height: 2px;
-        width: 2rem;
-        background: $--clr-yellow;
-        left: 1em;
-        transform: translateX(-50%);
-        border-radius: 5px;
-      }
-    }
-
-    &__main-title {
-      font-size: $fs-600;
-      margin-top: 1em;
-    }
-
-    .main-section {
-      margin-top: 6rem;
-
-      &__info {
-        grid-template-columns: 1fr;
-        grid-gap: 6rem;
-
-        &__main-info {
-          margin-bottom: 4rem;
-
-          &__title {
-            font-size: $fs-500;
-            margin-bottom: 3rem;
-          }
-
-          &__text-primary {
-            display: flex;
-            flex-direction: column;
-            gap: 2em;
-            margin-bottom: 4rem;
-          }
-        }
-      }
-    }
-
-    .skill-info {
-      &__skills-heading {
+      &__title {
         font-size: $fs-500;
         margin-bottom: 3rem;
       }
 
-      &__skills {
+      &__text-primary {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 2em;
+        margin-bottom: 4rem;
+      }
+    }
+  }
 
-        &__skill {
-          font-size: $fs-base;
-          text-transform: uppercase;
-          letter-spacing: 1px;
-          padding: 1.3rem 1.8rem;
-          margin-right: 2rem;
-          margin-bottom: 2rem;
-          background: $--clr-white;
-          color: $--clr-dark-blue;
-          border-radius: 5px;
-          font-weight: 500;
-        }
+  .skill-info {
+    &__skills {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 3em;
+
+      &__skill {
+        font-size: $fs-base;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        padding: 1.3rem 1.8rem;
+        margin-right: 2rem;
+        margin-bottom: 2rem;
+        background: $--clr-white;
+        color: $--clr-dark-blue;
+        border-radius: 5px;
+        font-weight: 500;
       }
     }
   }

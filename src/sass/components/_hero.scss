@@ -6,7 +6,7 @@
 
   &__content {
     margin: 0 auto;
-    padding: 5em 2em;
+    padding: 10em 1em;
 
     &__heading {
       font-size: $fs-600;
@@ -15,13 +15,6 @@
 
     &__info {
       font-size: $fs-400;
-    }
-
-    &__btn-container {
-      display: flex;
-      flex-direction: column;
-      gap: 2em;
-      margin-top: 2em;
     }
   }
 }
@@ -33,12 +26,12 @@
     height: 100vh;
     min-height: 80rem;
     max-height: 120rem;
-  }
 
-  .home-hero__content {
-    max-width: 120rem;
-    margin: auto;
-    width: 90%;
+    &__content {
+      max-width: 120rem;
+      margin: auto;
+      width: 90%;
+    }
   }
 }
 /* Tablet landscape and larger */

@@ -12,7 +12,7 @@ function HomeHero() {
           A Web Developer Building Awesome Webapps And Websites That Powers The
           Internet
         </p>
-        <div className="home-hero__content__btn-container">
+        <div className="btn-container">
           <Button className="btn">Projects</Button>
           <Button className="btn btn-alternate">Contact</Button>
         </div>

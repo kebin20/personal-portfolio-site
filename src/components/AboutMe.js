@@ -4,16 +4,16 @@ function AboutUs() {
   return (
     <section id="about" class="about">
       <div className="main-container">
-        <h4 className="main-container__sm-title">About Me</h4>
+        <h4 className="main-container__sm-title">About Me 🧑</h4>
         <h2 className="main-container__main-title">
           Here you will find more information about me, what I do, and list of
           my current skills in programming
         </h2>
         <div className="main-section">
-          <div className="main-section__info">
-            <div className="main-section__info__main-info">
-              <h3 className="main-section__info__main-info__title">My Story</h3>
-              <p className="main-section__info__main-info__text-primary">
+          <div className="info">
+            <div className="info__main-info">
+              <h3 className="info__main-info__title">My Story </h3>
+              <p className="info__main-info__text-primary">
                 <span>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Error, aliquid! Itaque corrupti magnam fugiat mollitia labore
@@ -39,7 +39,7 @@ function AboutUs() {
               <Button className="btn">Projects</Button>
             </div>
             <div class="skill-info">
-              <h3 className="skill-info__skills-heading">My Skills</h3>
+              <h4 className="main-container__sm-title">My Skills 💪</h4>
               <ul class="skill-info__skills">
                 <li class="skill-info__skills__skill">html</li>
                 <li class="skill-info__skills__skill">css</li>
