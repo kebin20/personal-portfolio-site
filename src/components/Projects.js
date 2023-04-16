@@ -1,4 +1,6 @@
 import Button from "./UI/Button";
+import Image from "next/image";
+import coffeeRoastersPic from "../assets/project-screenshots/coffee-roasters.png";
 
 function Projects() {
   return (
@@ -19,7 +21,11 @@ function Projects() {
               </div>
               <div className="projects__list-item-details">
                 <div className="projects__list-item-img-cont">
-                  {/* <img src="./assets/mock.png" alt="Project Image"  className="projects__list-item-img" /> */}
+                  <Image
+                    src={coffeeRoastersPic}
+                    alt="Coffee Roasters Site"
+                    className="projects__list-item-img"
+                  />
                 </div>
                 <h3 className="heading-tertiary projects__list-item-heading-tertiary">
                   Project Name
@@ -48,7 +54,7 @@ function Projects() {
               <div className="projects__list-item projects__list-item--inv">
                 <div className="projects__list-item-details">
                   <div className="projects__list-item-img-cont">
-                    {/* <img src="./assets/mock.png" alt="Project Image"  className="projects__list-item-img" /> */}
+                    {/* <img src="./assets/project-screenshots/" alt="Project Image"  className="projects__list-item-img" /> */}
                   </div>
                   <h3 className="heading-tertiary projects__list-item-heading-tertiary">
                     Project Name
@@ -88,7 +94,7 @@ function Projects() {
                 </div>
                 <div className="projects__list-item-details">
                   <div className="projects__list-item-img-cont">
-                    {/* <img src="./assets/mock.png" alt="Project Image"  className="projects__list-item-img" /> */}
+                    {/* <img src="./assets/project-screenshots/" alt="Project Image"  className="projects__list-item-img" /> */}
                   </div>
                   <h3 className="heading-tertiary projects__list-item-heading-tertiary">
                     Project Name
@@ -118,7 +124,7 @@ function Projects() {
               <div className="projects__list-item projects__list-item--inv">
                 <div className="projects__list-item-details">
                   <div className="projects__list-item-img-cont">
-                    {/* <img src="./assets/mock.png" alt="Project Image"  className="projects__list-item-img" /> */}
+                    {/* <img src="./assets/project-screenshots/" alt="Project Image"  className="projects__list-item-img" /> */}
                   </div>
                   <h3 className="heading-tertiary projects__list-item-heading-tertiary">
                     Project Name

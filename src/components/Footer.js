@@ -48,7 +48,6 @@ function Footer() {
             <a target="_blank" href="https://rammaheshwari.com">
               Ram Maheshwari{""}
             </a>
-            <script>document.write(new Date().getFullYear())</script>
           </p>
         </div>
       </div>
