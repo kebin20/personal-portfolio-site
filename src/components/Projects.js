@@ -1,6 +1,10 @@
 import Button from "./UI/Button";
 import Image from "next/image";
-import coffeeRoastersPic from "../assets/project-screenshots/coffee-roasters.png";
+import coffeeRoastersImg from "../assets/project-screenshots/coffee-roasters.png";
+import easyBankImg from "../assets/project-screenshots/easy-bank-landing-page.png";
+import englishFlashcardImg from "../assets/project-screenshots/english-flashcard-app.png";
+// import ticTacToeImg from "../assets/project-screenshots/tic-tac-toe-react.png";
+import todoAppImg from "../assets/project-screenshots/todo-react-app.png";
 
 function Projects() {
   return (
@@ -22,7 +26,7 @@ function Projects() {
               <div className="projects__list-item-details">
                 <div className="projects__list-item-img-cont">
                   <Image
-                    src={coffeeRoastersPic}
+                    src={coffeeRoastersImg}
                     alt="Coffee Roasters Site"
                     className="projects__list-item-img"
                   />
@@ -54,7 +58,11 @@ function Projects() {
               <div className="projects__list-item projects__list-item--inv">
                 <div className="projects__list-item-details">
                   <div className="projects__list-item-img-cont">
-                    {/* <img src="./assets/project-screenshots/" alt="Project Image"  className="projects__list-item-img" /> */}
+                    <Image
+                      src={englishFlashcardImg}
+                      alt="English flashcard app"
+                      className="projects__list-item-img"
+                    />
                   </div>
                   <h3 className="heading-tertiary projects__list-item-heading-tertiary">
                     Project Name
@@ -76,8 +84,8 @@ function Projects() {
                     </span>
                   </p>
                   <div className="btn-container">
-                    <Button className="btn  ">Live Link</Button>
-                    <Button className="btn  ">Code Link</Button>
+                    <Button className="btn">Live Link</Button>
+                    <Button className="btn">Code Link</Button>
                   </div>
                 </div>
                 <div className="projects__list-item-count">
@@ -94,7 +102,11 @@ function Projects() {
                 </div>
                 <div className="projects__list-item-details">
                   <div className="projects__list-item-img-cont">
-                    {/* <img src="./assets/project-screenshots/" alt="Project Image"  className="projects__list-item-img" /> */}
+                    <Image
+                      src={easyBankImg}
+                      alt="Easybank landing page"
+                      className="projects__list-item-img"
+                    />
                   </div>
                   <h3 className="heading-tertiary projects__list-item-heading-tertiary">
                     Project Name
@@ -116,15 +128,19 @@ function Projects() {
                     </span>
                   </p>
                   <div className="btn-container">
-                    <Button className="btn  ">Live Link</Button>
-                    <Button className="btn  ">Code Link</Button>
+                    <Button className="btn">Live Link</Button>
+                    <Button className="btn">Code Link</Button>
                   </div>
                 </div>
               </div>
               <div className="projects__list-item projects__list-item--inv">
                 <div className="projects__list-item-details">
                   <div className="projects__list-item-img-cont">
-                    {/* <img src="./assets/project-screenshots/" alt="Project Image"  className="projects__list-item-img" /> */}
+                    <Image
+                      src={todoAppImg}
+                      alt="Todo app"
+                      className="projects__list-item-img"
+                    />
                   </div>
                   <h3 className="heading-tertiary projects__list-item-heading-tertiary">
                     Project Name
@@ -146,8 +162,8 @@ function Projects() {
                     </span>
                   </p>
                   <div className="btn-container">
-                    <Button className="btn  ">Live Link</Button>
-                    <Button className="btn  ">Code Link</Button>
+                    <Button className="btn">Live Link</Button>
+                    <Button className="btn">Code Link</Button>
                   </div>
                 </div>
                 <div className="projects__list-item-count">
