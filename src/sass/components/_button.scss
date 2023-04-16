@@ -1,28 +1,58 @@
-.btn {
-  font-family: inherit;
-  letter-spacing: 1px;
-  font-weight: 700;
-  border: none;
-  box-shadow: none;
-  cursor: pointer;
-  padding: 1rem 2rem;
-  font-size: $fs-400;
-  border-radius: 5px;
-  border: 2px solid rgba($--main-button-default, 1);
-  background: rgba($--main-button-default, 1);
-  color: $--clr-dark-blue;
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  margin-top: 3em;
 
-  &:hover {
-    background: rgba($--main-button-hover, 1);
+  .btn {
+    font-family: inherit;
+    letter-spacing: 1px;
+    font-weight: 700;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    padding: 1.5rem 2rem;
+    font-size: $fs-600;
+    border-radius: 5px;
+    border: 2px solid rgba($--main-button-default, 1);
+    background: rgba($--main-button-default, 1);
+    color: $--clr-dark-blue;
+  
+    &:hover {
+      background: rgba($--main-button-hover, 1);
+    }
+  }
+
+
+  .btn-alternate {
+    background-color: transparent;
+    color: $--clr-yellow;
+  
+    &:hover {
+      border: 2px solid rgba($--clr-light-yellow, 1);
+      color: $--clr-light-yellow;
+    }
   }
 }
 
-.btn-alternate {
-  background-color: transparent;
-  color: $--clr-yellow;
+/* Tablet portrait and larger */
+@media only screen and (min-width: 37.5em) {
+.btn-container {
+  flex-direction: row;
 
-  &:hover {
-    border: 2px solid rgba($--clr-light-yellow, 1);
-    color: $--clr-light-yellow;
+  .btn {
+    padding: 2rem 4rem;
+    font-size: $fs-600;
   }
+}
+}
+/* Tablet landscape and larger */
+@media only screen and (min-width: 56.25em) {
+}
+
+/* Desktop and larger */
+@media only screen and (min-width: 75em) {
+}
+/* Big desktop (4k) */
+@media only screen and (min-width: 112.5em) {
 }
