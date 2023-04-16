@@ -26,8 +26,38 @@ Mobile: 654x800
 }
 
 html {
+  font-size: 62.5%;
   scroll-behavior: smooth;
 }
+
+/* 75em === 1200px */
+@media (max-width: 75em) {
+  html {
+    font-size: 60%;
+  }
+}
+
+/* 56.25em === 900px */
+@media (max-width: 56.25em) {
+  html {
+    font-size: 58%;
+  }
+}
+
+/* 37.5em === 600px */
+@media (max-width: 37.5em) {
+  html {
+    font-size: 56%;
+  }
+}
+
+/* 112.5em === 1600px */
+/* @media (min-width: 112.5em) {
+  html {
+    font-size: 65%;
+  }
+} */
+
 
 html,
 body {
