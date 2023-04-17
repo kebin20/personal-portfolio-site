@@ -4,7 +4,7 @@
   .info {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 6rem;
+    gap: 6rem;
 
     &__main-info {
       margin-bottom: 6rem;
@@ -61,7 +61,7 @@
   .about {
     .info {
       grid-template-columns: 1fr 1fr;
-      grid-gap: 8rem;
+      gap: 8rem;
     }
 
     .info__main-info {
@@ -70,7 +70,7 @@
       }
 
       &__text-primary {
-        font-size: $fs-600;
+        font-size: $fs-500;
       }
     }
 

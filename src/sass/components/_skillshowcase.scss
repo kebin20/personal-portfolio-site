@@ -26,8 +26,8 @@
 @media (min-width: 37.5em) {
   .skills-showcase {
     &__list {
-      grid-template-columns: repeat(6, 1fr);
-      gap: 4em;
+      display: flex;
+      flex-wrap: wrap;
     }
 
     &__list-item {
