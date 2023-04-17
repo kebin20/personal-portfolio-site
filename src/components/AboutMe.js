@@ -36,7 +36,9 @@ function AboutUs() {
                   sit amet
                 </span>
               </p>
-              <Button className="btn">Projects</Button>
+              <div className="btn-container">
+                <Button className="btn-container btn">Projects</Button>
+              </div>
             </div>
             <div className="skill-info">
               <h4 className="main-container__sm-title">My Skills 💪</h4>

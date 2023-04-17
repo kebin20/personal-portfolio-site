@@ -1,8 +1,7 @@
 .btn-container {
   display: flex;
-  flex-direction: column;
+  align-items: flex-start;
   gap: 2em;
-  margin-top: 3em;
 
   .btn {
     font-family: inherit;
@@ -12,22 +11,22 @@
     box-shadow: none;
     cursor: pointer;
     padding: 1.5rem 2rem;
+    margin-top: 2.5em;
     font-size: $fs-600;
     border-radius: 5px;
     border: 2px solid rgba($--main-button-default, 1);
     background: rgba($--main-button-default, 1);
     color: $--clr-dark-blue;
-  
+
     &:hover {
       background: rgba($--main-button-hover, 1);
     }
   }
 
-
   .btn-alternate {
     background-color: transparent;
     color: $--clr-yellow;
-  
+
     &:hover {
       border: 2px solid rgba($--clr-light-yellow, 1);
       color: $--clr-light-yellow;
@@ -37,14 +36,14 @@
 
 /* Tablet portrait and larger */
 @media only screen and (min-width: 37.5em) {
-.btn-container {
-  flex-direction: row;
+  .btn-container {
+    flex-direction: row;
 
-  .btn {
-    padding: 2rem 4rem;
-    font-size: $fs-600;
+    .btn {
+      padding: 2rem 4rem;
+      font-size: $fs-600;
+    }
   }
-}
 }
 /* Tablet landscape and larger */
 @media only screen and (min-width: 56.25em) {
