@@ -58,24 +58,25 @@
 }
 
 @media (min-width: 37.5em) {
-  .about__info {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 8rem;
-  }
-
-  .info__main-info {
-    &__title {
-      font-size: $fs-700;
+  .about {
+    .info {
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 8rem;
     }
 
-    &__text-primary {
-      font-size: $fs-600;
-    }
-  }
+    .info__main-info {
+      &__title {
+        font-size: $fs-700;
+      }
 
-  .about__btn-theme {
-    width: 70%;
+      &__text-primary {
+        font-size: $fs-600;
+      }
+    }
+
+    .about__btn-theme {
+      width: 70%;
+    }
   }
 }
 
