@@ -9,15 +9,28 @@
       margin-bottom: 6rem;
 
       &__title {
-        font-size: $fs-500;
+        position: relative;
+        font-size: $fs-700;
         margin-bottom: 3rem;
+
+        &::after {
+          content: "";
+          position: absolute;
+          top: 1.5em;
+          height: 2px;
+          width: 2rem;
+          background: $--clr-yellow;
+          left: 0.8em;
+          transform: translateX(-50%);
+          border-radius: 5px;
+        }
       }
 
       &__text-primary {
+        font-size: $fs-500;
         display: flex;
         flex-direction: column;
         gap: 2em;
-        margin-bottom: 4rem;
       }
     }
   }
@@ -50,7 +63,24 @@
     grid-gap: 8rem;
   }
 
+  .info__main-info {
+    &__title {
+      font-size: $fs-700;
+    }
+
+    &__text-primary {
+      font-size: $fs-600;
+    }
+  }
+
   .about__btn-theme {
     width: 70%;
   }
+}
+
+/* Desktop and larger */
+@media only screen and (min-width: 75em) {
+}
+/* Big desktop (4k) */
+@media only screen and (min-width: 112.5em) {
 }
