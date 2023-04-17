@@ -2,6 +2,7 @@
   color: $--clr-white;
 
   .info {
+    display: grid;
     grid-template-columns: 1fr;
     grid-gap: 6rem;
 
@@ -43,7 +44,7 @@
       gap: 2em;
 
       &__skill {
-        font-size: $fs-base;
+        font-size: $fs-600;
         text-transform: uppercase;
         letter-spacing: 1px;
         padding: 1.3rem 1.8rem;

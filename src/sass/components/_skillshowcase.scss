@@ -7,31 +7,31 @@
   &__list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2rem;
+    gap: 2rem;
   }
 
   &__list-item {
-    padding: 1.5rem;
+    padding: 2.5rem;
     border-radius: 50%;
     background: $--clr-white;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
     & i {
       color: $--clr-dark-blue;
-      font-size: 2.5rem;
+      font-size: $fs-1000;
     }
   }
 }
 
-// @media (min-width: 37.5em) {
-//   .skills-showcase {
-//     &__list {
-//       display: flex;
-//       justify-content: space-around;
-//     }
+@media (min-width: 37.5em) {
+  .skills-showcase {
+    &__list {
+      grid-template-columns: repeat(6, 1fr);
+      gap: 4em;
+    }
 
-//     &__list-item {
-//       padding: 3rem;
-//     }
-//   }
-// }
+    &__list-item {
+      padding: 3rem;
+    }
+  }
+}
