@@ -18,16 +18,43 @@ function Projects() {
         <div className="main-section__content">
           <div className="projects__list">
             <div className="projects__list-item">
-              <div className="projects__list-item-count">
-                <span className="projects__list-item-count-num"> 1 </span>
-                <span className="projects__list-item-count-line"> </span>
-                <span className="projects__list-item-count-end-dot"> </span>
-              </div>
               <div className="projects__list-item-details">
                 <div className="projects__list-item-img-cont">
                   <Image
                     src={coffeeRoastersImg}
                     alt="Coffee Roasters Site"
+                    className="projects__list-item-img"
+                  />
+                </div>
+                <h3 className="heading-tertiary projects__list-item-heading-tertiary">
+                  Project Name
+                </h3>
+
+                <p className="text-primary projects__list-item-text-primary">
+                  <span>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Error, aliquid! Itaque corrupti magnam fugiat mollitia
+                    labore magni saepe veritatis voluptatum alias fugit.
+                    Explicabo ducimus
+                  </span>
+
+                  <span>
+                    sapiente aut corporis odio repellendus? Lorem ipsum dolor
+                    sit amet, consectetur adipisicing elit
+                  </span>
+                </p>
+                <div className="btn-container">
+                  <Button className="btn">Live Link</Button>
+                  <Button className="btn">Code Link</Button>
+                </div>
+              </div>
+            </div>
+            <div className="projects__list-item projects__list-item--inv">
+              <div className="projects__list-item-details">
+                <div className="projects__list-item-img-cont">
+                  <Image
+                    src={englishFlashcardImg}
+                    alt="English flashcard app"
                     className="projects__list-item-img"
                   />
                 </div>
@@ -55,121 +82,72 @@ function Projects() {
                   <Button className="btn">Code Link</Button>
                 </div>
               </div>
-              <div className="projects__list-item projects__list-item--inv">
-                <div className="projects__list-item-details">
-                  <div className="projects__list-item-img-cont">
-                    <Image
-                      src={englishFlashcardImg}
-                      alt="English flashcard app"
-                      className="projects__list-item-img"
-                    />
-                  </div>
-                  <h3 className="heading-tertiary projects__list-item-heading-tertiary">
-                    Project Name
-                  </h3>
-                  {/* <!-- <hr  className="projects__title-text-divider" /> --> */}
-
-                  <p className="text-primary projects__list-item-text-primary">
-                    <span>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Error, aliquid! Itaque corrupti magnam fugiat mollitia
-                      labore magni saepe veritatis voluptatum alias fugit.
-                      Explicabo ducimus
-                    </span>
-                    {/* <!-- <br />
-              <br /> --> */}
-                    <span>
-                      sapiente aut corporis odio repellendus? Lorem ipsum dolor
-                      sit amet, consectetur adipisicing elit
-                    </span>
-                  </p>
-                  <div className="btn-container">
-                    <Button className="btn">Live Link</Button>
-                    <Button className="btn">Code Link</Button>
-                  </div>
+            </div>
+            <div className="projects__list-item">
+              <div className="projects__list-item-details">
+                <div className="projects__list-item-img-cont">
+                  <Image
+                    src={easyBankImg}
+                    alt="Easybank landing page"
+                    className="projects__list-item-img"
+                  />
                 </div>
-                <div className="projects__list-item-count">
-                  <span className="projects__list-item-count-num"> 2 </span>
-                  <span className="projects__list-item-count-line"> </span>
-                  <span className="projects__list-item-count-end-dot"> </span>
+                <h3 className="heading-tertiary projects__list-item-heading-tertiary">
+                  Project Name
+                </h3>
+                {/* <!-- <hr  className="projects__title-text-divider" /> --> */}
+
+                <p className="text-primary projects__list-item-text-primary">
+                  <span>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Error, aliquid! Itaque corrupti magnam fugiat mollitia
+                    labore magni saepe veritatis voluptatum alias fugit.
+                    Explicabo ducimus
+                  </span>
+                  {/* <!-- <br />
+              <br /> --> */}
+                  <span>
+                    sapiente aut corporis odio repellendus? Lorem ipsum dolor
+                    sit amet, consectetur adipisicing elit
+                  </span>
+                </p>
+                <div className="btn-container">
+                  <Button className="btn">Live Link</Button>
+                  <Button className="btn">Code Link</Button>
                 </div>
               </div>
-              <div className="projects__list-item">
-                <div className="projects__list-item-count">
-                  <span className="projects__list-item-count-num"> 3 </span>
-                  <span className="projects__list-item-count-line"> </span>
-                  <span className="projects__list-item-count-end-dot"> </span>
+            </div>
+            <div className="projects__list-item projects__list-item--inv">
+              <div className="projects__list-item-details">
+                <div className="projects__list-item-img-cont">
+                  <Image
+                    src={todoAppImg}
+                    alt="Todo app"
+                    className="projects__list-item-img"
+                  />
                 </div>
-                <div className="projects__list-item-details">
-                  <div className="projects__list-item-img-cont">
-                    <Image
-                      src={easyBankImg}
-                      alt="Easybank landing page"
-                      className="projects__list-item-img"
-                    />
-                  </div>
-                  <h3 className="heading-tertiary projects__list-item-heading-tertiary">
-                    Project Name
-                  </h3>
-                  {/* <!-- <hr  className="projects__title-text-divider" /> --> */}
+                <h3 className="heading-tertiary projects__list-item-heading-tertiary">
+                  Project Name
+                </h3>
+                {/* <!-- <hr  className="projects__title-text-divider" /> --> */}
 
-                  <p className="text-primary projects__list-item-text-primary">
-                    <span>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Error, aliquid! Itaque corrupti magnam fugiat mollitia
-                      labore magni saepe veritatis voluptatum alias fugit.
-                      Explicabo ducimus
-                    </span>
-                    {/* <!-- <br />
+                <p className="text-primary projects__list-item-text-primary">
+                  <span>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Error, aliquid! Itaque corrupti magnam fugiat mollitia
+                    labore magni saepe veritatis voluptatum alias fugit.
+                    Explicabo ducimus
+                  </span>
+                  {/* <!-- <br />
               <br /> --> */}
-                    <span>
-                      sapiente aut corporis odio repellendus? Lorem ipsum dolor
-                      sit amet, consectetur adipisicing elit
-                    </span>
-                  </p>
-                  <div className="btn-container">
-                    <Button className="btn">Live Link</Button>
-                    <Button className="btn">Code Link</Button>
-                  </div>
-                </div>
-              </div>
-              <div className="projects__list-item projects__list-item--inv">
-                <div className="projects__list-item-details">
-                  <div className="projects__list-item-img-cont">
-                    <Image
-                      src={todoAppImg}
-                      alt="Todo app"
-                      className="projects__list-item-img"
-                    />
-                  </div>
-                  <h3 className="heading-tertiary projects__list-item-heading-tertiary">
-                    Project Name
-                  </h3>
-                  {/* <!-- <hr  className="projects__title-text-divider" /> --> */}
-
-                  <p className="text-primary projects__list-item-text-primary">
-                    <span>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Error, aliquid! Itaque corrupti magnam fugiat mollitia
-                      labore magni saepe veritatis voluptatum alias fugit.
-                      Explicabo ducimus
-                    </span>
-                    {/* <!-- <br />
-              <br /> --> */}
-                    <span>
-                      sapiente aut corporis odio repellendus? Lorem ipsum dolor
-                      sit amet, consectetur adipisicing elit
-                    </span>
-                  </p>
-                  <div className="btn-container">
-                    <Button className="btn">Live Link</Button>
-                    <Button className="btn">Code Link</Button>
-                  </div>
-                </div>
-                <div className="projects__list-item-count">
-                  <span className="projects__list-item-count-num"> 4 </span>
-                  <span className="projects__list-item-count-line"> </span>
-                  <span className="projects__list-item-count-end-dot"> </span>
+                  <span>
+                    sapiente aut corporis odio repellendus? Lorem ipsum dolor
+                    sit amet, consectetur adipisicing elit
+                  </span>
+                </p>
+                <div className="btn-container">
+                  <Button className="btn">Live Link</Button>
+                  <Button className="btn">Code Link</Button>
                 </div>
               </div>
             </div>
