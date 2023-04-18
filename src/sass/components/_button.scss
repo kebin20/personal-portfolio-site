@@ -28,7 +28,8 @@
     color: $--clr-yellow;
 
     &:hover {
-      border: 2px solid rgba($--clr-light-yellow, 1);
+      background-color: transparent;
+      border: 2px solid rgba($--main-button-hover, 1);
       color: $--clr-light-yellow;
     }
   }
