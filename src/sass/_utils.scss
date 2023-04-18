@@ -1,7 +1,8 @@
 .main-container {
   max-width: 120rem;
   width: 90%;
-  margin: 0 auto;
+  margin: auto;
+  
 
   &__sm-title {
     position: relative;
@@ -42,6 +43,20 @@
     &__content {
       margin-top: 10rem;
     }
+  }
+}
+
+/* Animation ( Keyframes ) */
+
+@keyframes downToUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
