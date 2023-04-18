@@ -20,23 +20,6 @@ function Footer() {
             </li>
           </ul>
           <div className="main-footer__mid-line"></div>
-          <div className="main-footer__socials">
-            <a href="#" className="main-footer__social-link">
-              <Image src="" alt="" className="main-footer__social-link-icon" />
-            </a>
-            <a href="#" className="main-footer__social-link">
-              <Image src="" alt="" className="main-footer__social-link-icon" />
-            </a>
-            <a href="#" className="main-footer__social-link">
-              <Image src="" alt="" className="main-footer__social-link-icon" />
-            </a>
-            <a href="#" className="main-footer__social-link">
-              <Image src="" alt="" className="main-footer__social-link-icon" />
-            </a>
-            <a href="#" className="main-footer__social-link">
-              <Image src="" alt="" className="main-footer__social-link-icon" />
-            </a>
-          </div>
         </div>
       </div>
       <div className="main-footer__bottom">
