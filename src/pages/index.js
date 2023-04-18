@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import NavBar from "@/components/Navbar";
+import NavBar from "@/components/Navigation/Navbar";
 import HomeHero from "@/components/HomeHero";
 import AboutUs from "@/components/AboutMe";
 import SkillsShowcase from "@/components/SkillsShowcase";
