@@ -1,5 +1,3 @@
-import Button from "./UI/Button";
-
 function AboutUs() {
   return (
     <section id="about" className="about">
@@ -37,7 +35,9 @@ function AboutUs() {
                 </span>
               </p>
               <div className="btn-container">
-                <Button className="btn-container btn">Projects</Button>
+                <a href="#projects" className="btn-container btn">
+                  Projects
+                </a>
               </div>
             </div>
             <div className="skill-info">

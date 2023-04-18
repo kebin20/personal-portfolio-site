@@ -1,4 +1,3 @@
-import Button from "./UI/Button";
 import Image from "next/image";
 import avatar from "../assets/kevin-avatar.png";
 
@@ -6,7 +5,12 @@ function HomeHero() {
   return (
     <section id="home-hero" className="home-hero">
       <div className="home-hero__content">
-        <Image src={avatar} alt="personal profile picture" className="home-hero__content__hero-picture"/>
+        <Image
+          src={avatar}
+          alt="personal profile picture"
+          className="home-hero__content__hero-picture"
+          priority={true}
+        />
         <h1 className="home-hero__content__heading">
           Hey there, I&apos;m Kevin Tanzyl !
         </h1>
@@ -15,8 +19,12 @@ function HomeHero() {
           Internet
         </h2>
         <div className="btn-container">
-          <Button className="btn">Projects</Button>
-          <Button className="btn btn-alternate">Contact</Button>
+          <a href="#projects" className="btn">
+            Projects
+          </a>
+          <a href="#contact" className="btn btn-alternate">
+            Contact
+          </a>
         </div>
       </div>
     </section>
