@@ -26,18 +26,18 @@ function SkillsShowcase() {
         <li className="skills-showcase__list-item">
           <i className="devicon-tailwindcss-plain"></i>
         </li>
-        <li className="skills-showcase__list-item">
+        {/* <li className="skills-showcase__list-item">
           <i className="devicon-github-plain"></i>
-        </li>
+        </li> */}
         <li className="skills-showcase__list-item">
           <i className="devicon-sass-plain"></i>
         </li>
         <li className="skills-showcase__list-item">
           <i className="devicon-firebase-plain"></i>
         </li>
-        <li className="skills-showcase__list-item">
+        {/* <li className="skills-showcase__list-item">
           <i className="devicon-figma-plain"></i>
-        </li>
+        </li> */}
       </ul>
     </section>
   );
