@@ -13,8 +13,8 @@ function Projects() {
       <div className="main-container">
         <h4 className="main-container__sm-title">Projects 🛠️</h4>
         <h2 className="main-container__main-title">
-          Here you will find some of the personal and clients projects that I
-          created with the project details
+          Here you will find some of the personal projects that I created with
+          the project details
         </h2>
         <div className="main-section__content">
           <div className="projects__list">
@@ -28,25 +28,41 @@ function Projects() {
                   />
                 </div>
                 <h3 className="heading-tertiary projects__list-item-heading-tertiary">
-                  Project Name
+                  Coffee Roasters Website
                 </h3>
 
                 <p className="text-primary projects__list-item-text-primary">
                   <span>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Error, aliquid! Itaque corrupti magnam fugiat mollitia
-                    labore magni saepe veritatis voluptatum alias fugit.
-                    Explicabo ducimus
+                    This is a coffee beans ordering website, where users can
+                    easily create a coffee subscription with their preferred
+                    selection of beans. The website is built using React and
+                    TypeScript, with routing facilitated via React Router, and
+                    styled using CSS Modules. To ensure responsiveness,
+                    mobile-first design principles were incorporated during
+                    development.
                   </span>
 
                   <span>
-                    sapiente aut corporis odio repellendus? Lorem ipsum dolor
-                    sit amet, consectetur adipisicing elit
+                    The website also includes an order summary modal that allows
+                    users to review their selected options before finalizing
+                    their order. In the future, there are plans to implement a
+                    register and login page, as well as a shopping cart function
+                    to enhance the user experience.
                   </span>
                 </p>
                 <div className="btn-container">
-                  <Button className="btn">Live Link</Button>
-                  <Button className="btn">Code Link</Button>
+                  <a
+                    href="https://thecoffeeroasters.netlify.app/"
+                    className="btn"
+                  >
+                    Live Link
+                  </a>
+                  <a
+                    href="https://github.com/kebin20/coffee-roasters-website"
+                    className="btn"
+                  >
+                    Code Link
+                  </a>
                 </div>
               </div>
             </div>
@@ -60,25 +76,40 @@ function Projects() {
                   />
                 </div>
                 <h3 className="heading-tertiary projects__list-item-heading-tertiary">
-                  Project Name
+                  English Flashcards App
                 </h3>
 
                 <p className="text-primary projects__list-item-text-primary">
                   <span>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Error, aliquid! Itaque corrupti magnam fugiat mollitia
-                    labore magni saepe veritatis voluptatum alias fugit.
-                    Explicabo ducimus
+                    This is a flashcard app designed to help ES students revise
+                    their vocabulary. The app is built using React and
+                    TypeScript, with styling achieved through styled-components.
+                    The main flashcard data is stored in Firebase, enabling easy
+                    access and editing of deck layout and content.
                   </span>
 
                   <span>
-                    sapiente aut corporis odio repellendus? Lorem ipsum dolor
-                    sit amet, consectetur adipisicing elit
+                    With this app, students can easily revise cards that require
+                    further attention, as well as remove cards they have already
+                    learned from their deck. The app&apos;s user-friendly
+                    interface and efficient design allow for seamless studying
+                    sessions, helping students to optimize their learning
+                    experience.
                   </span>
                 </p>
                 <div className="btn-container">
-                  <Button className="btn">Live Link</Button>
-                  <Button className="btn">Code Link</Button>
+                  <a
+                    href="https://english-flashcard.netlify.app/"
+                    className="btn"
+                  >
+                    Live Link
+                  </a>
+                  <a
+                    href="https://github.com/kebin20/english-flashcards-app"
+                    className="btn"
+                  >
+                    Code Link
+                  </a>
                 </div>
               </div>
             </div>
@@ -92,25 +123,40 @@ function Projects() {
                   />
                 </div>
                 <h3 className="heading-tertiary projects__list-item-heading-tertiary">
-                  Project Name
+                  Easybank Landing Page
                 </h3>
 
                 <p className="text-primary projects__list-item-text-primary">
                   <span>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Error, aliquid! Itaque corrupti magnam fugiat mollitia
-                    labore magni saepe veritatis voluptatum alias fugit.
-                    Explicabo ducimus
+                    This landing page is designed for a fictional bank company
+                    called Easybank, and is built using Tailwind CSS and Vanilla
+                    JavaScript. The page has been developed with mobile-first
+                    design principles in mind, ensuring optimal user experience
+                    across all devices.
                   </span>
 
                   <span>
-                    sapiente aut corporis odio repellendus? Lorem ipsum dolor
-                    sit amet, consectetur adipisicing elit
+                    The landing page effectively showcases the company&apos;s
+                    brand and services, highlighting key features and benefits
+                    through a well-designed and visually appealing layout. With
+                    its user-friendly interface and seamless navigation, this
+                    landing page provides an engaging and informative experience
+                    for potential customers.
                   </span>
                 </p>
                 <div className="btn-container">
-                  <Button className="btn">Live Link</Button>
-                  <Button className="btn">Code Link</Button>
+                  <a
+                    href="https://kebin20.github.io/easybank-landing-page/"
+                    className="btn"
+                  >
+                    Live Link
+                  </a>
+                  <a
+                    href="https://github.com/kebin20/easybank-landing-page"
+                    className="btn"
+                  >
+                    Code Link
+                  </a>
                 </div>
               </div>
             </div>
@@ -124,25 +170,38 @@ function Projects() {
                   />
                 </div>
                 <h3 className="heading-tertiary projects__list-item-heading-tertiary">
-                  Project Name
+                  Nice Todo App
                 </h3>
 
                 <p className="text-primary projects__list-item-text-primary">
                   <span>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Error, aliquid! Itaque corrupti magnam fugiat mollitia
-                    labore magni saepe veritatis voluptatum alias fugit.
-                    Explicabo ducimus
+                    This is a todo app built using React, TypeScript, and
+                    Firebase, with a simple filtering function to help users
+                    manage their tasks more efficiently. The app is designed to
+                    be responsive, automatically adapting to different screen
+                    sizes and providing an optimal layout for all devices.
                   </span>
 
                   <span>
-                    sapiente aut corporis odio repellendus? Lorem ipsum dolor
-                    sit amet, consectetur adipisicing elit
+                    Users can add new tasks, mark them as complete, or delete
+                    them from the list altogether. The app also offers a
+                    filtering option, allowing users to view
+                    all/active/completed todos based on their preference. In
+                    addition, users can clear all completed todos and toggle
+                    between light and dark mode for better accessibility and
+                    customization.
                   </span>
                 </p>
                 <div className="btn-container">
-                  <Button className="btn">Live Link</Button>
-                  <Button className="btn">Code Link</Button>
+                  <a href="https://nicetodoapp.netlify.app/" className="btn">
+                    Live Link
+                  </a>
+                  <a
+                    href="https://github.com/kebin20/todo-app-react"
+                    className="btn"
+                  >
+                    Code Link
+                  </a>
                 </div>
               </div>
             </div>
@@ -156,25 +215,31 @@ function Projects() {
                   />
                 </div>
                 <h3 className="heading-tertiary projects__list-item-heading-tertiary">
-                  Project Name
+                  Awesome Tic-Tac-Toe App
                 </h3>
 
                 <p className="text-primary projects__list-item-text-primary">
                   <span>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Error, aliquid! Itaque corrupti magnam fugiat mollitia
-                    labore magni saepe veritatis voluptatum alias fugit.
-                    Explicabo ducimus
-                  </span>
-
-                  <span>
-                    sapiente aut corporis odio repellendus? Lorem ipsum dolor
-                    sit amet, consectetur adipisicing elit
+                    Tic Tac Toe app built using React and bundled with Vite for
+                    optimized performance. Users can choose to play either
+                    against the computer or in multiplayer mode against another
+                    person. The app&apos;s responsive design ensures an optimal
+                    layout on all devices,
                   </span>
                 </p>
                 <div className="btn-container">
-                  <Button className="btn">Live Link</Button>
-                  <Button className="btn">Code Link</Button>
+                  <a
+                    href="https://awesometictactoe.netlify.app/"
+                    className="btn"
+                  >
+                    Live Link
+                  </a>
+                  <a
+                    href="https://github.com/kebin20/tic-tac-toe-react"
+                    className="btn"
+                  >
+                    Code Link
+                  </a>
                 </div>
               </div>
             </div>
@@ -183,30 +248,38 @@ function Projects() {
                 <div className="projects__list-item-img-cont">
                   <Image
                     src={quizzicalImg}
-                    alt="Todo app"
+                    alt="Quizzical"
                     className="projects__list-item-img"
                   />
                 </div>
                 <h3 className="heading-tertiary projects__list-item-heading-tertiary">
-                  Project Name
+                  Quizzical
                 </h3>
 
                 <p className="text-primary projects__list-item-text-primary">
                   <span>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Error, aliquid! Itaque corrupti magnam fugiat mollitia
-                    labore magni saepe veritatis voluptatum alias fugit.
-                    Explicabo ducimus
+                    This is a quiz app built using React, TypeScript, and
+                    styled-components that pulls quiz data from the Open Trivia
+                    Database. The app provides users with a set of five
+                    questions to answer, complete with answer checking
+                    functionality for added convenience.
                   </span>
 
                   <span>
-                    sapiente aut corporis odio repellendus? Lorem ipsum dolor
-                    sit amet, consectetur adipisicing elit
+                    The app&apos;s responsive design ensures an optimal layout
+                    on all devices.
                   </span>
                 </p>
                 <div className="btn-container">
-                  <Button className="btn">Live Link</Button>
-                  <Button className="btn">Code Link</Button>
+                  <a href="https://quizzicalistic.netlify.app/" className="btn">
+                    Live Link
+                  </a>
+                  <a
+                    href="https://github.com/kebin20/quizzical"
+                    className="btn"
+                  >
+                    Code Link
+                  </a>
                 </div>
               </div>
             </div>
