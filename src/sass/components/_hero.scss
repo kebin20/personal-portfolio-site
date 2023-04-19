@@ -3,6 +3,7 @@
   min-height: unset;
   max-height: unset;
   color: $--clr-white;
+  
 
   &__content {
     margin: 0 auto;
@@ -57,15 +58,14 @@
 
 /* Tablet landscape and larger */
 @media only screen and (min-width: 56.25em) {
-.home-hero__content {
-  height: 100vh;
-  padding: 10em 3em;
+  .home-hero__content {
+    height: 100vh;
+    padding: 10em 3em;
 
-  &__hero-picture {
-    width: 20%;
+    &__hero-picture {
+      width: 20%;
+    }
   }
-}
-
 }
 
 /* Desktop and larger */

@@ -20,7 +20,7 @@
       content: "";
       position: absolute;
       top: 1.3em;
-      height: 5px;
+      height: 4px;
       width: 2rem;
       background: $--clr-yellow;
       left: 1.8em;
@@ -35,6 +35,7 @@
 }
 
 .mobile-links {
+  text-transform: capitalize;
   background-color: $--clr-white;
   display: flex;
   flex-direction: column;
