@@ -3,7 +3,7 @@ import avatar from "../assets/kevin-avatar.png";
 
 function HomeHero() {
   return (
-    <section id="home-hero" className="home-hero">
+    <section id="home" className="home-hero">
       <div className="home-hero__content">
         <Image
           src={avatar}

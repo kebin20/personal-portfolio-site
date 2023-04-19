@@ -130,6 +130,7 @@
       padding: 1.3rem 2rem;
       font-size: $fs-600;
       color: $--clr-white;
+      text-transform: capitalize;
 
       &:hover::after {
         content: "";

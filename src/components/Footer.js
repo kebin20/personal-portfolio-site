@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 function Footer() {
   return (
     <footer className="main-footer">
@@ -7,16 +5,16 @@ function Footer() {
         <div className="main-container">
           <ul className="main-footer__links">
             <li className="main-footer__link">
-              <a href="./index.html">Home</a>
+              <a href="#home">Home</a>
             </li>
             <li className="main-footer__link">
-              <a href="./index.html#about">About</a>
+              <a href="#about">About</a>
             </li>
             <li className="main-footer__link">
-              <a href="./index.html#projects">Projects</a>
+              <a href="#projects">Projects</a>
             </li>
             <li className="main-footer__link">
-              <a href="./index.html#contact">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
           <div className="main-footer__mid-line"></div>
