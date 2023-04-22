@@ -11,11 +11,11 @@ function Projects() {
   return (
     <section id="projects" className="projects main-section">
       <div className="main-container">
-        <h4 className="main-container__sm-title">Projects 🛠️</h4>
-        <h2 className="main-container__main-title">
+        <h2 className="main-container__sm-title">Projects 🛠️</h2>
+        <h3 className="main-container__main-title">
           Here you will find some of the personal projects that I created with
           the project details
-        </h2>
+        </h3>
         <div className="main-section__content">
           <div className="projects__list">
             <div className="projects__list-item">

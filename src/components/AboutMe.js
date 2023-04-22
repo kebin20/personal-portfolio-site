@@ -2,11 +2,11 @@ function AboutUs() {
   return (
     <section id="about" className="about">
       <div className="main-container">
-        <h4 className="main-container__sm-title">About Me 🧑</h4>
-        <h2 className="main-container__main-title">
+        <h2 className="main-container__sm-title">About Me 🧑</h2>
+        <h3 className="main-container__main-title">
           Here you will find more information about me, what I do, and list of
           my current skills in programming
-        </h2>
+        </h3>
         <div className="main-section">
           <div className="info">
             <div className="info__main-info">

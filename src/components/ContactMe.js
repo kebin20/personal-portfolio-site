@@ -4,11 +4,11 @@ function ContactMe() {
   return (
     <section id="contact" className="contact main-section">
       <div className="main-container">
-        <h4 className="main-container__sm-title">Contact 📞</h4>
-        <h2 className="main-container__main-title">
+        <h2 className="main-container__sm-title">Contact 📞</h2>
+        <h3 className="main-container__main-title">
           Feel free to Contact me by via email or Linkedin and I will get back
           to you as soon as possible! Also see my Github for more projects!
-        </h2>
+        </h3>
         <div className="contact-container">
           <ul className="contact-container__list">
             <li className="contact-container__list-item">
