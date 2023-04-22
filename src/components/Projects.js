@@ -86,15 +86,15 @@ function Projects() {
                     TypeScript, with styling achieved through styled-components.
                     The main flashcard data is stored in Firebase, enabling easy
                     access and editing of deck layout and content.
+                    I was able to use the useContext (useContext API) to make my code leaner.
                   </span>
 
                   <span>
                     With this app, students can easily revise cards that require
                     further attention, as well as remove cards they have already
-                    learned from their deck. The app&apos;s user-friendly
-                    interface and efficient design allow for seamless studying
-                    sessions, helping students to optimize their learning
-                    experience.
+                    learned from their deck. It is highly accessible as students
+                    will be able to access it not just on their school tablets,
+                    but on their home devices as well.
                   </span>
                 </p>
                 <div className="btn-container">
