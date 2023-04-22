@@ -52,7 +52,7 @@ function AboutUs() {
                 <span>Come and have a look at my projects below!</span>
               </p>
               <div className="btn-container">
-                <a href="#projects" className="btn-container btn">
+                <a href="#projects" className="btn-container btn" aria-label="Go to projects">
                   Projects
                 </a>
               </div>

@@ -15,17 +15,18 @@ function ContactMe() {
               <a
                 target="_blank"
                 href="https://www.linkedin.com/in/kevin-tanzyl/"
+                aria-label="Go to my profile in LinkedIn"
               >
                 <i className="devicon-linkedin-plain"></i>
               </a>
             </li>
             <li className="contact-container__list-item">
-              <a target="_blank" href="mailto:ktanzyl@hotmail.com">
+              <a target="_blank" href="mailto:ktanzyl@hotmail.com" aria-label="Email me for further contact">
                 <MailIcon />
               </a>
             </li>
             <li className="contact-container__list-item">
-              <a target="_blank" href="https://github.com/kebin20">
+              <a target="_blank" href="https://github.com/kebin20" aria-label="See my Github for more projects">
                 <i className="devicon-github-plain"></i>
               </a>
             </li>

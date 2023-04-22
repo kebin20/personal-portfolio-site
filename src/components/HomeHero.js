@@ -19,10 +19,10 @@ function HomeHero() {
           Internet
         </h2>
         <div className="btn-container">
-          <a href="#projects" className="btn">
+          <a href="#projects" className="btn" aria-label="Go to my projects section">
             Projects
           </a>
-          <a href="#contact" className="btn btn-alternate">
+          <a href="#contact" className="btn btn-alternate"  aria-label="Go to contacts section">
             Contact
           </a>
         </div>
