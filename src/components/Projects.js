@@ -19,14 +19,12 @@ function Projects() {
             <div className="projects__list-item">
               <div className="projects__list-item-details">
                 <div className="projects__list-item-img-cont">
-                <a
-                    href="https://thecoffeeroasters.netlify.app/"
-                  >
-                  <Image
-                    src={coffeeRoastersImg}
-                    alt="Coffee Roasters Site"
-                    className="projects__list-item-img"
-                  />
+                  <a href="https://thecoffeeroasters.netlify.app/">
+                    <Image
+                      src={coffeeRoastersImg}
+                      alt="Coffee Roasters Site"
+                      className="projects__list-item-img"
+                    />
                   </a>
                 </div>
                 <h3 className="heading-tertiary projects__list-item-heading-tertiary">
@@ -39,7 +37,7 @@ function Projects() {
                     easily create a coffee subscription with their preferred
                     selection of beans. The website is built using React and
                     TypeScript, with routing facilitated via React Router, and
-                    styled using CSS Modules. 
+                    styled using CSS Modules.
                   </span>
 
                   <span>
@@ -69,14 +67,12 @@ function Projects() {
             <div className="projects__list-item projects__list-item--inv">
               <div className="projects__list-item-details">
                 <div className="projects__list-item-img-cont">
-                <a
-                    href="https://english-flashcard.netlify.app/"
-                  >
-                  <Image
-                    src={englishFlashcardImg}
-                    alt="English flashcard app"
-                    className="projects__list-item-img"
-                  />
+                  <a href="https://english-flashcard.netlify.app/">
+                    <Image
+                      src={englishFlashcardImg}
+                      alt="English flashcard app"
+                      className="projects__list-item-img"
+                    />
                   </a>
                 </div>
                 <h3 className="heading-tertiary projects__list-item-heading-tertiary">
@@ -89,8 +85,9 @@ function Projects() {
                     their vocabulary. The app is built using React and
                     TypeScript, with styling achieved through styled-components.
                     The main flashcard data is stored in Firebase, enabling easy
-                    access and editing of deck layout and content.
-                    Code was refactored by creating a custom hook to hold all the common business logic.
+                    access and editing of deck layout and content. Code was
+                    refactored by creating a custom hook to hold all the common
+                    business logic.
                   </span>
 
                   <span>
@@ -120,14 +117,12 @@ function Projects() {
             <div className="projects__list-item">
               <div className="projects__list-item-details">
                 <div className="projects__list-item-img-cont">
-                <a
-                    href="https://kebin20.github.io/easybank-landing-page/"
-                  >
-                  <Image
-                    src={easyBankImg}
-                    alt="Easybank landing page"
-                    className="projects__list-item-img"
-                  />
+                  <a href="https://kebin20.github.io/easybank-landing-page/">
+                    <Image
+                      src={easyBankImg}
+                      alt="Easybank landing page"
+                      className="projects__list-item-img"
+                    />
                   </a>
                 </div>
                 <h3 className="heading-tertiary projects__list-item-heading-tertiary">
@@ -138,18 +133,13 @@ function Projects() {
                   <span>
                     This landing page is designed for a fictional bank company
                     called Easybank, and is built using Tailwind CSS and Vanilla
-                    JavaScript. The page has been developed with mobile-first
-                    design principles in mind, ensuring optimal user experience
-                    across all devices.
+                    JavaScript.
                   </span>
 
                   <span>
                     The landing page effectively showcases the company&apos;s
                     brand and services, highlighting key features and benefits
-                    through a well-designed and visually appealing layout. With
-                    its user-friendly interface and seamless navigation, this
-                    landing page provides an engaging and informative experience
-                    for potential customers.
+                    through a well-designed and visually appealing layout.
                   </span>
                 </p>
                 <div className="btn-container">
@@ -168,14 +158,16 @@ function Projects() {
                 </div>
               </div>
             </div>
-            {/* <div className="projects__list-item projects__list-item--inv">
+            <div className="projects__list-item projects__list-item--inv">
               <div className="projects__list-item-details">
                 <div className="projects__list-item-img-cont">
-                  <Image
-                    src={quizzicalImg}
-                    alt="Quizzical"
-                    className="projects__list-item-img"
-                  />
+                  <a href="https://quizzicalistic.netlify.app/" className="btn">
+                    <Image
+                      src={quizzicalImg}
+                      alt="Quizzical"
+                      className="projects__list-item-img"
+                    />
+                  </a>
                 </div>
                 <h3 className="heading-tertiary projects__list-item-heading-tertiary">
                   Quizzical
@@ -188,11 +180,6 @@ function Projects() {
                     Database. The app provides users with a set of five
                     questions to answer, complete with answer checking
                     functionality for added convenience.
-                  </span>
-
-                  <span>
-                    The app&apos;s responsive design ensures an optimal layout
-                    on all devices.
                   </span>
                 </p>
                 <div className="btn-container">
@@ -207,7 +194,7 @@ function Projects() {
                   </a>
                 </div>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
