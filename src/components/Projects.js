@@ -3,8 +3,6 @@ import Image from "next/image";
 import coffeeRoastersImg from "../assets/project-screenshots/coffee-roasters.png";
 import easyBankImg from "../assets/project-screenshots/easy-bank-landing-page.png";
 import englishFlashcardImg from "../assets/project-screenshots/english-flashcard-app.png";
-import ticTacToeImg from "../assets/project-screenshots/tic-tac-toe-react.png";
-import todoAppImg from "../assets/project-screenshots/todo-react-app.png";
 import quizzicalImg from "../assets/project-screenshots/quizzical.png";
 
 function Projects() {
@@ -37,9 +35,7 @@ function Projects() {
                     easily create a coffee subscription with their preferred
                     selection of beans. The website is built using React and
                     TypeScript, with routing facilitated via React Router, and
-                    styled using CSS Modules. To ensure responsiveness,
-                    mobile-first design principles were incorporated during
-                    development.
+                    styled using CSS Modules. 
                   </span>
 
                   <span>
