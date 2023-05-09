@@ -19,11 +19,15 @@ function Projects() {
             <div className="projects__list-item">
               <div className="projects__list-item-details">
                 <div className="projects__list-item-img-cont">
+                <a
+                    href="https://thecoffeeroasters.netlify.app/"
+                  >
                   <Image
                     src={coffeeRoastersImg}
                     alt="Coffee Roasters Site"
                     className="projects__list-item-img"
                   />
+                  </a>
                 </div>
                 <h3 className="heading-tertiary projects__list-item-heading-tertiary">
                   Coffee Roasters Website
@@ -65,11 +69,15 @@ function Projects() {
             <div className="projects__list-item projects__list-item--inv">
               <div className="projects__list-item-details">
                 <div className="projects__list-item-img-cont">
+                <a
+                    href="https://english-flashcard.netlify.app/"
+                  >
                   <Image
                     src={englishFlashcardImg}
                     alt="English flashcard app"
                     className="projects__list-item-img"
                   />
+                  </a>
                 </div>
                 <h3 className="heading-tertiary projects__list-item-heading-tertiary">
                   English Flashcards App
@@ -112,11 +120,15 @@ function Projects() {
             <div className="projects__list-item">
               <div className="projects__list-item-details">
                 <div className="projects__list-item-img-cont">
+                <a
+                    href="https://kebin20.github.io/easybank-landing-page/"
+                  >
                   <Image
                     src={easyBankImg}
                     alt="Easybank landing page"
                     className="projects__list-item-img"
                   />
+                  </a>
                 </div>
                 <h3 className="heading-tertiary projects__list-item-heading-tertiary">
                   Easybank Landing Page
