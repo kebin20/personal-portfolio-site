@@ -160,90 +160,7 @@ function Projects() {
                 </div>
               </div>
             </div>
-            <div className="projects__list-item projects__list-item--inv">
-              <div className="projects__list-item-details">
-                <div className="projects__list-item-img-cont">
-                  <Image
-                    src={todoAppImg}
-                    alt="Todo app"
-                    className="projects__list-item-img"
-                  />
-                </div>
-                <h3 className="heading-tertiary projects__list-item-heading-tertiary">
-                  Nice Todo App
-                </h3>
-
-                <p className="text-primary projects__list-item-text-primary">
-                  <span>
-                    This is a todo app built using React, TypeScript, and
-                    Firebase, with a simple filtering function to help users
-                    manage their tasks more efficiently. The app is designed to
-                    be responsive, automatically adapting to different screen
-                    sizes and providing an optimal layout for all devices.
-                  </span>
-
-                  <span>
-                    Users can add new tasks, mark them as complete, or delete
-                    them from the list altogether. The app also offers a
-                    filtering option, allowing users to view
-                    all/active/completed todos based on their preference. In
-                    addition, users can clear all completed todos and toggle
-                    between light and dark mode for better accessibility and
-                    customization.
-                  </span>
-                </p>
-                <div className="btn-container">
-                  <a href="https://nicetodoapp.netlify.app/" className="btn">
-                    Live Link
-                  </a>
-                  <a
-                    href="https://github.com/kebin20/todo-app-react"
-                    className="btn"
-                  >
-                    Code Link
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="projects__list-item">
-              <div className="projects__list-item-details">
-                <div className="projects__list-item-img-cont">
-                  <Image
-                    src={ticTacToeImg}
-                    alt="Tic tac toe app"
-                    className="projects__list-item-img"
-                  />
-                </div>
-                <h3 className="heading-tertiary projects__list-item-heading-tertiary">
-                  Awesome Tic-Tac-Toe App
-                </h3>
-
-                <p className="text-primary projects__list-item-text-primary">
-                  <span>
-                    Tic Tac Toe app built using React and bundled with Vite for
-                    optimized performance. Users can choose to play either
-                    against the computer or in multiplayer mode against another
-                    person. The app&apos;s responsive design ensures an optimal
-                    layout on all devices,
-                  </span>
-                </p>
-                <div className="btn-container">
-                  <a
-                    href="https://awesometictactoe.netlify.app/"
-                    className="btn"
-                  >
-                    Live Link
-                  </a>
-                  <a
-                    href="https://github.com/kebin20/tic-tac-toe-react"
-                    className="btn"
-                  >
-                    Code Link
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="projects__list-item projects__list-item--inv">
+            {/* <div className="projects__list-item projects__list-item--inv">
               <div className="projects__list-item-details">
                 <div className="projects__list-item-img-cont">
                   <Image
@@ -282,7 +199,7 @@ function Projects() {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
