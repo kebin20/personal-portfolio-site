@@ -11,6 +11,7 @@
   }
 
   &__list-item {
+    color: $--clr-dark-blue;
     padding: 2.5rem;
     border-radius: 50%;
     background: $--clr-white;
@@ -28,6 +29,7 @@
     &__list {
       display: flex;
       flex-wrap: wrap;
+      justify-content: center;
     }
 
     &__list-item {
