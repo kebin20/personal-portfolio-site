@@ -1,9 +1,15 @@
 .header {
+  position: fixed;
   z-index: 10;
   width: 100%;
   background-color: transparent;
   color: $--clr-white;
   padding: 2rem 3rem;
+}
+
+.scrolled {
+  background-color: $--clr-dark-blue;
+  box-shadow: $lg-box-shadow;
 }
 
 .nav {
