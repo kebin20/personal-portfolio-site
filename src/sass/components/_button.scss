@@ -2,6 +2,7 @@
   display: flex;
   align-items: flex-start;
   gap: 2em;
+  justify-content: center;
 
   .btn {
     font-family: inherit;
@@ -39,6 +40,7 @@
 @media only screen and (min-width: 37.5em) {
   .btn-container {
     flex-direction: row;
+    justify-content: flex-start;
 
     .btn {
       padding: 2rem 4rem;
