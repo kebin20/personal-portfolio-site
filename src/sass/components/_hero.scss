@@ -3,12 +3,12 @@
   min-height: unset;
   max-height: unset;
   color: $--clr-white;
-  
 
   &__content {
     margin: 0 auto;
-    padding: 6em 3em;
+    padding: 26em 3em;
     animation: downToUp 0.8s;
+    text-align: center;
 
     &__hero-picture {
       margin-inline: auto;
@@ -43,6 +43,8 @@
       gap: 1em;
       max-width: 120rem;
       margin: auto;
+      text-align: left;
+      margin-bottom: 11em;
 
       &__hero-picture {
         margin-inline: 0;
@@ -60,7 +62,7 @@
 @media only screen and (min-width: 56.25em) {
   .home-hero__content {
     height: 100vh;
-    padding: 10em 3em;
+    padding-top: 34em;
 
     &__hero-picture {
       width: 20%;
@@ -71,14 +73,13 @@
 /* Desktop and larger */
 @media only screen and (min-width: 75em) {
   .home-hero__content {
-    padding: 9em 1em;
+    padding: 22em 1em;
     justify-content: normal;
   }
 }
 /* Big desktop (4k) */
 @media only screen and (min-width: 92.5em) {
-    .home-hero__content {
-    padding: 15em 1em;
-    justify-content: normal;
+  .home-hero__content {
+    padding: 30em 1em;
   }
 }
