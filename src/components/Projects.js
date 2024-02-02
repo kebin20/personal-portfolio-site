@@ -1,7 +1,6 @@
-import Button from "./UI/Button";
 import Image from "next/image";
 import coffeeRoastersImg from "../assets/project-screenshots/coffee-roasters.png";
-import easyBankImg from "../assets/project-screenshots/easy-bank-landing-page.png";
+import payApiImg from "../assets/project-screenshots/pay-api-website.png";
 import englishFlashcardImg from "../assets/project-screenshots/english-flashcard-app.png";
 import quizzicalImg from "../assets/project-screenshots/quizzical.png";
 
@@ -117,40 +116,35 @@ function Projects() {
             <div className="projects__list-item">
               <div className="projects__list-item-details">
                 <div className="projects__list-item-img-cont">
-                  <a href="https://kebin20.github.io/easybank-landing-page/">
+                  <a href="https://github.com/kebin20/payapi-multi-page-website">
                     <Image
-                      src={easyBankImg}
-                      alt="Easybank landing page"
+                      src={payApiImg}
+                      alt="PayAPI landing page"
                       className="projects__list-item-img"
                     />
                   </a>
                 </div>
                 <h3 className="heading-tertiary projects__list-item-heading-tertiary">
-                  Easybank Landing Page
+                  PayAPI Mock Website
                 </h3>
 
                 <p className="text-primary projects__list-item-text-primary">
                   <span>
-                    This landing page is designed for a fictional bank company
-                    called Easybank, and is built using Tailwind CSS and Vanilla
-                    JavaScript.
-                  </span>
-
-                  <span>
-                    The landing page effectively showcases the company&apos;s
-                    brand and services, highlighting key features and benefits
-                    through a well-designed and visually appealing layout.
+                    A mock API service website built with NextJS, styled with
+                    Tailwind with form validation via React Hook Forms for
+                    contact request. Contact data and inquiries are handled and
+                    stored via MongoDB Atlas.
                   </span>
                 </p>
                 <div className="btn-container">
                   <a
-                    href="https://kebin20.github.io/easybank-landing-page/"
+                    href="https://payapi-multi-page-website-kebin20s-projects.vercel.app/"
                     className="btn"
                   >
                     Live Link
                   </a>
                   <a
-                    href="https://github.com/kebin20/easybank-landing-page"
+                    href="https://github.com/kebin20/payapi-multi-page-website"
                     className="btn"
                   >
                     Code Link
