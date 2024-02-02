@@ -1,3 +1,5 @@
+![homepage](./public/personal-website-screenshot.png)
+
 # Personal Portfolio Website
 
 ## My process
